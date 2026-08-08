@@ -1,109 +1,61 @@
-## 📚 个人技术笔记仓库
+## 个人技术笔记
 
-这是一个用于整理我在学习与实践过程中积累的技术笔记仓库，所有内容均以 **Markdown** 形式编写，涵盖后端开发、计算机基础以及分布式系统等方向。
+后端开发方向的技术笔记，以 Markdown 形式整理，覆盖 Java 生态、中间件、Spring 框架、计算机网络、AI 应用等方向。
 
-> ✨ 目标：构建系统化知识体系，而不是零散记忆
+> 目标：体系化知识，而非零散记录。
 
-------
+---
 
-## 🧭 仓库结构
+### 仓库结构
 
 ```
 .
-├── basic              # 基础知识
-├── os                 # 操作系统
-├── 计算机网络          # 计算机网络
-├── 网络架构原理        # 网络架构 & 设计
-├── JVM                # Java 虚拟机
-├── JUC                # Java 并发编程
-├── 分布式JUC          # 分布式并发扩展
-├── mysql              # 数据库
-├── redis              # 缓存
-├── rabbitmq           # 消息队列
-├── springboot         # Spring Boot
-├── springsecurity     # 安全框架
-├── es                 # Elasticsearch
-├── rag                # 检索增强生成（RAG）
-├── agent              # Agent相关探索
-├── leetcode           # 算法与刷题
-├── Collections        # Java 集合源码
-└── 简历               # 个人总结/项目整理
+├── java/                   # Java 核心
+│   ├── basic/              #   基础：OOP、异常、泛型、String、Object、数据类型
+│   ├── Collections/        #   集合：HashMap、ConcurrentHashMap、List
+│   ├── JVM/                #   JVM：内存结构、GC、类加载、OOM/CPU 排查
+│   └── JUC/                #   并发：锁(synchronized/CAS/volatile/ReentrantLock)、AQS、线程池、ThreadLocal
+│
+├── 中间件/                  # 中间件深入
+│   ├── mysql/              #   MySQL：架构、存储引擎、索引、事务&MVCC、锁、日志、调优、高可用&分库分表
+│   ├── redis/              #   Redis：基础/进阶类型、底层数据结构、线程模型、持久化、高可用、分布式锁、缓存问题
+│   ├── rabbitmq/           #   RabbitMQ：基础、可靠性投递、DLX、幂等性、削峰填谷
+│   └── es/                 #   Elasticsearch：基础、分布式架构、与 MySQL 数据一致性
+│
+├── spring生态/             # Spring 生态
+│   ├── springboot/         #   Spring Boot：IOC&DI、AOP、自动装配、Bean 生命周期、循环依赖、事务管理
+│   └── springsecurity/     #   Spring Security：RBAC、鉴权、框架架构
+│
+├── 计算机网络/              # TCP(握手/挥手/滑动窗口/拥塞控制)、HTTP、HTTPS
+├── 网络架构原理/            # IO 模型、Reactor 模式
+├── 算法/                   # 二分查找、String 类、集合 API
+│
+├── ai/                     # AI 应用
+│   ├── agent/              #   Agent：提示词工程、推理规划、工具调用、记忆层、多智能体、工程落地
+│   └── rag/                #   RAG：数据接入&索引、查询理解、检索&召回、召回后处理、生成闭环
+│
+├── os/                     # 操作系统（待完善）
+├── 简历/                   # 简历、项目总结
+└── 常用指令.md             # 常用命令速查
 ```
 
-------
+---
 
-## 🧠 内容特点
+### 内容特点
 
-- ✅ **系统化整理**：按知识领域分类，结构清晰
-- ✅ **源码导向**：深入源码（如 JUC / JVM / Collections）
-- ✅ **面试导向**：重点整理高频面试知识点
-- ✅ **实践结合**：结合项目经验与实际使用场景
-- ✅ **持续更新**：长期维护，持续补充
+- **体系化组织**：按知识域分层，每个子域有清晰的阅读顺序
+- **源码导向**：JUC、Collections、Spring Boot 等深入源码层面
+- **原理优先**：侧重"为什么"而非"是什么"，关注本质
+- **持续迭代**：长期维护，跟随技术演进补充
 
-------
+---
 
-## 🚀 学习路线（推荐阅读顺序）
+### 技术栈
 
-如果你也是后端方向，可以参考我的学习路径：
+Java / JVM / JUC · MySQL / Redis / Elasticsearch · RabbitMQ · Spring Boot / Spring Security · TCP/IP · Agent / RAG
 
-1. 基础
-   - basic
-   - 操作系统（os）
-   - 计算机网络
-2. Java核心
-   - Collections
-   - JVM
-   - JUC
-3. 数据库 & 中间件
-   - mysql
-   - redis
-   - rabbitmq
-   - es
-4. 框架
-   - springboot
-   - springsecurity
-5. 进阶
-   - 分布式JUC
-   - 网络架构原理
-6. 算法 & AI方向
-   - leetcode
-   - rag
-   - agent
+---
 
-------
+### 关于笔记
 
-## 🛠 技术栈
-
-- Java / JVM
-- MySQL / Redis / Elasticsearch
-- RabbitMQ
-- Spring Boot / Spring Security
-- 分布式系统
-- 基础算法 & 数据结构
-- LLM / RAG / Agent（探索中）
-
-------
-
-## ✍️ 关于笔记
-
-- 所有笔记均为**个人理解整理**，可能存在不足之处
-- 更偏向：
-  - 原理讲解
-  - 关键点总结
-  - 面试视角
-- 不追求“面面俱到”，更关注“理解本质”
-
-------
-
-## 📌 TODO
-
--  补充分布式系统案例
--  完善 RAG / Agent 实践
--  增加项目实战总结
--  整理高频面试题合集
-
-------
-
-## 🤝 欢迎交流
-
-如果你对这些内容感兴趣，或者有建议，欢迎一起交流～
+所有内容为个人理解整理，偏向原理讲解、关键点总结和面试视角，不求面面俱到。

@@ -1,0 +1,43 @@
+git
+
+
+
+git status 查看当前状态
+
+git clone xx 拉取代码
+
+
+
+创建自己的分支:
+
+git checkput -b xx/xx/xx 
+
+
+
+## 写代码以后
+
+git diff 查看修改
+
+git add . 加入暂存区
+
+git commit -m "message" 提交
+
+git push origin xx/xx/xx 上传
+
+
+
+## 合并别人的代码 
+
+比如我的分支是  feature/a 
+
+别人是 features/b 
+
+最后要合并到 develop
+
+先切换到分支develop :  git checkout develop 然后拉取最新的 git pull 然后合并我的分支 git merge feature/a
+
+如果冲突  git会在冲突的文件里标明 自己的代码和待合并的代码的一个冲突 我们可以人工审阅看出区别 修改后 比如修改init.py 修改后
+
+手动把init.py加入暂存区 git add init.py
+
+最后提交合并结果 git commit -m "xx"

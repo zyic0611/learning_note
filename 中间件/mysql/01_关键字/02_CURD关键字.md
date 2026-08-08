@@ -1,4 +1,3 @@
-# CURD关键字
 
 ## insert
 
@@ -24,6 +23,7 @@ insert into table xx values xx1,xx2,xx3
 insert into ... on duplicate key update
 ```
 
+简单理解就是插入操作 一般得先判断有没有存在这个东西 再插入 因为有些唯一字段不允许重复插入 。如果重复插入 会报错 这个方法就是如果有重复 就不报错 转变为更新操作 覆盖
 #### 高并发问题：
 
 高并发请求涌入时  先select 再insert 容易发生幻读 导致唯一索引冲突
@@ -32,7 +32,7 @@ insert into ... on duplicate key update
 
  但是会有两次网络往返 java select--> mysql mysql返回数据 java insert -->mysql mysql返回数据。
 
-采用on duplicate key update语法  可以直接把加锁操作下沉到mysql引擎层 只有一次网络往返 效率高 。降低接口响应时间。
+采用on duplicate key update语法  **可以直接把加锁操作下沉到mysql引擎层** 只有一次网络往返 效率高 。降低接口响应时间。
 
 理解为锁的粒度更精细。
 
@@ -68,7 +68,7 @@ innoDB默认隔离级别是RR 如果where字段没有建立索引 或者优化�
 
 ### 开发铁律
 
-所有update和delete的where条件 必须命中索引。
+**所有update和delete的where条件 必须命中索引。**
 
 
 
@@ -80,7 +80,7 @@ dml（数据操纵）语句  逐行删除  会记录完整的binlog和undolog �
 
 他只是在b+树上打上已删除的标记 磁盘空间没有归还。
 
- 如果一次性delete几百万条数据 日志会暴涨 还可能引发长事务甚至主从延迟。
+ 如果一次性delete几百万条数据 日志会暴涨 还可能引发**长事务**甚至**主从延迟**。
 
 #### 长事务:
 
@@ -92,7 +92,7 @@ delete会产生大量的undo log 而事务在提交前会一直持有历史版�
 
 事务在提交前一直没结束 则undolog很多并且无法释放 数据的旧版本必须保留。
 
-总结就是 长事务是因为**持有大量未提交Undo的版本 时间过长**。
+总结就是 长事务是因为**持有大量未提交Undolog的版本 时间过长**。
 
 #### 主从延迟:
 

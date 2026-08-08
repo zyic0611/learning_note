@@ -1,4 +1,4 @@
-# ACID
+
 
 ## 原子性 Atomicty
 

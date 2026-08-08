@@ -4,16 +4,17 @@ redolog,undolog 都是innodb引擎内部的。 但是binlog是属于mysql server
 
 核心功能 数据恢复(主要是备份 全量or增量备份) 主从复制
 
-是追加式的 不覆盖 写满了就加文件 redolog是循环写 会覆盖。
-## 格式
+是**追加式的 不覆盖** 写满了就加文件 redolog是循环写 会覆盖。
+
+## 模式
 
 ### statement模式
 
 纯逻辑日志 记录每一条sql语句原文 
 
-优点： 日志量小 节省磁盘io
+- 优点： 日志量小 节省磁盘io
 
-缺点：主从不一致 比如动态函数 Now() UUID() 主库执行时的是一个时间/值 从库重新执行一遍sql 时间就完全不一样。
+- 缺点：主从不一致 比如动态函数 Now() UUID() 主库执行时的是一个时间/值 从库重新执行一遍sql 时间就完全不一样。
 
 ### Row模式
 
@@ -21,11 +22,11 @@ redolog,undolog 都是innodb引擎内部的。 但是binlog是属于mysql server
 
 记录每一行数据修改前和修改后的 真实物理值。
 
-优点：绝对的数据一致性 没有函数带来的副作用。
+- 优点：绝对的数据一致性 没有函数带来的副作用。
 
-canal伪装节点： 高并发架构时 canal伪装成从库 去拉去mysql的binlog 推送到rabbitmq做数据流转 就依赖的是row格式的精确数据。
+	- canal伪装节点： 高并发架构时 canal伪装成从库 去拉去mysql的binlog 推送到rabbitmq做数据流转 就依赖的是row格式的精确数据。
 
-缺点：日志两大 比如update user set status=1 更新10万条数据 statement就记一条 row模式记录10万条
+- 缺点：日志两大 比如update user set status=1 更新10万条数据 statement就记一条 row模式记录10万条
 
 
 
@@ -33,17 +34,17 @@ canal伪装节点： 高并发架构时 canal伪装成从库 去拉去mysql的bi
 
 mysql自动判断 普通sql用statement 动态函数 可能主从不一致sql 自动切换成orw。
 
-但是边界模糊 所以大厂一般锁死row模式
+但是边界模糊 所以大厂一般锁死row模式。 因为不会出错 空间换精确性
 
 
 
 ## 刷盘策略
 
-0 对应redolog的2  每次提交事务到oscache 由os决定什么时候fsync()
+0 对应redolog的2  每次提交事务到oscache 。此时没有后台线程每1s定时刷入磁盘。而是由os决定什么时候刷脏页到物理磁盘（fsync是操作系统提供给上层应用的一个api 如果对于操作系统本身 可以直接刷脏页到物理磁盘 不用调用fsync）
 
-1 对应redolog的2 提交事务就刷盘
+1 对应redolog的1 提交事务就马上写入oscache 并且接连fsync()刷入磁盘。 大厂一般采用双1策略 一次事务对应刷一次binlog redolog进磁盘。
 
-N：每积累N个事务触发一次刷盘。
+N：每次提交都写入oscache,但是每积累N个事务触发一次刷盘。
 
 
 ## 必要性

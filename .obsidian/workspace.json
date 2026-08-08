@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "788d5154916d1995",
+    "type": "split",
+    "children": [
+      {
+        "id": "c144d32399ef99d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb3a5cc9fbdea2bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5b96670bbc94fc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "51e17457075679d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "191cc5280b770e5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c121a3ffe5b48714",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"ai/agent/记忆机制/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "68f5ce7243b81f14",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0a694310ce13de53",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bfab4f942b8155f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "339f2f263f8784b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "中间件/mysql/00基础与架构层/02_数据类型与表范式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "02_数据类型与表范式 的反向链接列表"
+            }
+          },
+          {
+            "id": "4eec97a64bba69c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "中间件/mysql/00基础与架构层/02_数据类型与表范式.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "02_数据类型与表范式 的出链列表"
+            }
+          },
+          {
+            "id": "30290d954cbcb6a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "34f32bdde58f8cbc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7098b69f555628d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "中间件/mysql/00基础与架构层/02_数据类型与表范式.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "02_数据类型与表范式 的大纲"
+            }
+          },
+          {
+            "id": "12b0d878ae42aefd",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "191cc5280b770e5f",
+  "lastOpenFiles": [
+    "git/git代码.md",
+    "ai/thincoder/agent-loop/主循环和状态机设计.md",
+    "ai/thincoder/agent-loop/架构.md",
+    "ai/thincoder/agent-loop",
+    "ai/agent/面经/维护skill.md",
+    "ai/thincoder",
+    "ai/agent/面经/多步任务失败.md",
+    "ai/agent/面经/长任务跑偏.md",
+    "ai/agent/面经/工具可靠性调用.md",
+    "意图识别与边界澄清.md 10-21-39-367.md",
+    "指代消解 1.md",
+    "意图识别与边界澄清 1.md",
+    "未命名.md",
+    "口径澄清.md 10-21-39-372.md",
+    "口径澄清 1.md",
+    "简历.md",
+    "话题关联判定.md 10-21-39-374.md",
+    "话题关联判定 1.md",
+    "编排结构.md 10-21-39-377.md",
+    "编排结构 1.md",
+    "面试/Agent项目面经/架构全链路.md",
+    "18374220e13f82c82f3c89c28c8f2f96.jpg",
+    "面试/java项目面经/抢单接口.md",
+    "中间件/mysql/01_关键字/04_group by & limit的 性能问题.md",
+    "中间件/mysql/03_索引机制/02_聚簇索引与非.md",
+    "中间件/mysql/03_索引机制/01_底层数据结构.md",
+    "中间件/mysql/05_锁机制/01_全局锁与表级锁.md",
+    "中间件/mysql/04_事务与并发控制/04_MVCC.md",
+    "中间件/mysql/04_事务与并发控制/03_隔离级别.md",
+    "面试/python面经",
+    "ai/agent/面经",
+    "面试/zyc简历.pdf",
+    "面试/java项目面经",
+    "面试/图状态机.png",
+    "面试/Agent项目面经",
+    "ai/环卫招标智能体/护栏栈/执行层护栏栈",
+    "ai/agent/06_MCP",
+    "ai/agent/04_推理与规划",
+    "简历/Pasted image 20260728094238.png"
+  ]
+}
