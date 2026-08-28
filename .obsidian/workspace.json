@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "面试/java项目面经/抢单接口.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "抢单接口"
             }
           }
         ],
@@ -188,8 +188,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "92e1f95f0fa15dd9",
   "lastOpenFiles": [
+    "中间件/rabbitmq/04_进阶特性与流量削峰/03_延迟队列架构.md",
+    "中间件/rabbitmq/04_进阶特性与流量削峰/02_DLX死信队列.md",
+    "README.md",
     "简历/业务背景与案例说明.md",
     "简历/模块理解文档.md",
     "简历/简历.md",
@@ -238,9 +241,6 @@
     "微服务/负载均衡/客户端和服务端负载均衡.md",
     "面试/简历.md",
     "简历/ddhagent项目分析/亮点3文档解析.md",
-    "git/git代码.md",
-    "简历/new简历.md",
-    "ai/rag/向量数据库.md",
     "ai/rag/文档解析",
     "简历",
     "ai/thincoder/Memory-system",
