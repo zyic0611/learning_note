@@ -1,4 +1,3 @@
-# HashMap
 
 JDK 1.7: 数组+链表
 
@@ -106,7 +105,6 @@ key可以为null值 hashmap使用hash（）方法计算哈希值 当key为null�
 
 
 
-## equals（） & hashCode（）
 
 
 

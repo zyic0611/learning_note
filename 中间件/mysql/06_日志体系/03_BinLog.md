@@ -26,7 +26,7 @@ redolog,undolog 都是innodb引擎内部的。 但是binlog是属于mysql server
 
 	- canal伪装节点： 高并发架构时 canal伪装成从库 去拉去mysql的binlog 推送到rabbitmq做数据流转 就依赖的是row格式的精确数据。
 
-- 缺点：日志两大 比如update user set status=1 更新10万条数据 statement就记一条 row模式记录10万条
+- 缺点：日志量大 比如update user set status=1 更新10万条数据 statement就记一条 row模式记录10万条
 
 
 
