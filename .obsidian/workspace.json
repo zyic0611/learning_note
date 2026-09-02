@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "16ec72693de1b7b9",
+        "id": "05171f9e9888dea6",
         "type": "tabs",
         "children": [
           {
-            "id": "33291f66ea99ba98",
+            "id": "eef99f216fae95c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间件/redis/08_缓存三大核心问题/04_双写一致性.md",
+                "file": "实战/rag和文件系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_双写一致性"
+              "title": "rag和文件系统"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a694310ce13de53",
@@ -197,45 +198,45 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "33291f66ea99ba98",
+  "active": "eef99f216fae95c9",
   "lastOpenFiles": [
+    "实战/mysql/未命名.md",
+    "实战/OOM排查.md",
+    "实战/mysql",
+    "实战/rag和文件系统.md",
+    "实战/开放回答/控制token成本.md",
+    "实战/开放回答/OS知识在agen里的应用.md",
+    "实战/开放回答/如何学习前沿AI.md",
+    "实战/skill eval.md",
+    "实战/开放回答",
+    "ai/agent/面经/skill评测.md",
+    "实战",
+    "os/CPU缓存一致性.md",
+    "os/malloc-mmap-brk.md",
+    "os/TLB 快表.md",
+    "os/用户态内核态.md",
+    "os/硬软中断.md",
+    "os/页面置换算法.md",
+    "os/进程调度算法.md",
+    "os/虚拟内存.md",
+    "os/同步异步-阻塞非阻塞.md",
+    "os/缺页中断.md",
+    "os/内存碎片.md",
+    "os/进程线程.md",
+    "os/僵尸和孤儿进程.md",
+    "os/分页分段.md",
+    "中间件/redis/08_缓存三大核心问题/04_双写一致性.md",
     "实战/频繁FullGC.md",
     "实战/接口大量超时.md",
-    "实战/OOM排查.md",
     "实战/CPU飙升.md",
-    "分布式/netty/03_网络通信实战/02_编解码与序列化.md",
-    "分布式/netty/03_网络通信实战/01_TCP 粘包与半包问题.md",
-    "分布式/netty/03_网络通信实战/03_连接的保活机制.md",
-    "分布式/sentinel/03_流量控制与熔断降级/01_FlowSlot与限流效果.md",
-    "分布式/netty/核心架构与线程模型.md",
-    "分布式/sentinel/todo.md",
     "个人项目/得物/朱伊成简历.pdf",
-    "个人项目/得物/简历.md",
     "实战",
-    "个人项目/momenta项目/模块理解文档.md",
-    "个人项目/momenta项目/业务背景与案例说明.md",
-    "个人项目/momenta项目/new简历.md",
-    "个人项目/momenta项目/ddhagent项目分析/亮点1-MultiAgent-复习版.md",
-    "个人项目/momenta项目/ddhagent项目分析/亮点1multi-agent架构深入.md",
-    "个人项目/momenta项目/检索深入.md",
-    "个人项目/momenta项目/技术文档-实习简历.md",
-    "面试/简历.md",
-    "面试/langchain.md",
-    "面试/AI编程相关面试.md",
     "面试/图状态机.png",
-    "面试/自我介绍.md",
-    "个人项目/得物/项目2深入分析.md",
-    "个人项目/得物/项目1深入分析.md",
-    "个人项目/得物/面试准备-业务知识.md",
-    "个人项目/得物/项目.md",
     "个人项目",
     "个人项目/得物",
     "中间件/mysql/复盘",
     "ai/rag/文档解析",
     "个人项目/momenta项目",
-    "ai/thincoder/Memory-system",
-    "分布式/负载均衡",
-    "分布式/服务注册与发现",
     "18374220e13f82c82f3c89c28c8f2f96.jpg",
     "简历/Pasted image 20260728094238.png"
   ]
