@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实战/rag和文件系统.md",
+                "file": "spring生态/springboot/IOC&DI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rag和文件系统"
+              "title": "IOC&DI"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a694310ce13de53",
@@ -200,10 +199,25 @@
   },
   "active": "eef99f216fae95c9",
   "lastOpenFiles": [
+    "spring生态/springboot/AOP.md",
+    "spring生态/springboot/循环依赖.md",
+    "spring生态/springboot/自动装配.md",
+    "spring生态/springboot/Bean的生命周期.md",
+    "spring生态/springboot/IOC&DI.md",
+    "spring生态/springboot/事务管理与失效.md",
+    "计算机网络/Http/滑动窗口与拥塞控制.md",
+    "os/TLB 快表.md",
+    "计算机网络/tcp和udp/TCP保证数据包不丢失.md",
+    "计算机网络/tcp和udp/TCP 4次挥手.md",
+    "计算机网络/Http/对称非对称加密、CA.md",
+    "计算机网络/Http/TLS.md",
+    "计算机网络/Http/https.md",
+    "计算机网络/Http/http.md",
+    "计算机网络/7层架构.md",
+    "实战/rag和文件系统.md",
     "实战/mysql/未命名.md",
     "实战/OOM排查.md",
     "实战/mysql",
-    "实战/rag和文件系统.md",
     "实战/开放回答/控制token成本.md",
     "实战/开放回答/OS知识在agen里的应用.md",
     "实战/开放回答/如何学习前沿AI.md",
@@ -213,22 +227,7 @@
     "实战",
     "os/CPU缓存一致性.md",
     "os/malloc-mmap-brk.md",
-    "os/TLB 快表.md",
     "os/用户态内核态.md",
-    "os/硬软中断.md",
-    "os/页面置换算法.md",
-    "os/进程调度算法.md",
-    "os/虚拟内存.md",
-    "os/同步异步-阻塞非阻塞.md",
-    "os/缺页中断.md",
-    "os/内存碎片.md",
-    "os/进程线程.md",
-    "os/僵尸和孤儿进程.md",
-    "os/分页分段.md",
-    "中间件/redis/08_缓存三大核心问题/04_双写一致性.md",
-    "实战/频繁FullGC.md",
-    "实战/接口大量超时.md",
-    "实战/CPU飙升.md",
     "个人项目/得物/朱伊成简历.pdf",
     "实战",
     "面试/图状态机.png",
