@@ -22,7 +22,7 @@ json-rpc 是轻量级的远程函数调用协议
 
 **stdio** 标准输入输出 server作为本地子进程运行 client通过管道通信。 适合本地工具 启动快 延迟低 
 
-**streamable HTTP** server作为http服务部署在远程 client通过http连接通信。 适合部署在远端的工具服务 或者多个client共享一个server的情况。（老版使用http+sse 双断电 先版本单端点就行 更简单 短请求直接返回json响应 长请求则把http响应升级为sse流）
+**streamable HTTP** server作为http服务部署在远程 client通过http连接通信。 适合部署在远端的工具服务 或者多个client共享一个server的情况。（老版使用http+sse 双端点 先版本单端点就行 更简单 短请求直接返回json响应 长请求则把http响应升级为sse流）
 
 
 
