@@ -1,0 +1,3464 @@
+{
+  "k": 5,
+  "overall": {
+    "queries": 48,
+    "top1_accuracy": 0.7916666666666666,
+    "precision_at_k": 0.6750000000000002,
+    "recall_at_k": 0.48214285714285715,
+    "map": 0.7181768270332682
+  },
+  "by_family": {
+    "合成器": {
+      "queries": 8,
+      "top1_accuracy": 1.0,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "map": 1.0
+    },
+    "弦乐": {
+      "queries": 8,
+      "top1_accuracy": 1.0,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "map": 0.9626924001924002
+    },
+    "木吉他": {
+      "queries": 8,
+      "top1_accuracy": 0.75,
+      "precision_at_k": 0.45,
+      "recall_at_k": 0.3214285714285714,
+      "map": 0.5383163763450417
+    },
+    "电钢琴": {
+      "queries": 8,
+      "top1_accuracy": 0.5,
+      "precision_at_k": 0.25,
+      "recall_at_k": 0.17857142857142855,
+      "map": 0.42062638535852825
+    },
+    "钢琴": {
+      "queries": 8,
+      "top1_accuracy": 0.5,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "map": 0.4557713436491824
+    },
+    "长笛": {
+      "queries": 8,
+      "top1_accuracy": 1.0,
+      "precision_at_k": 0.95,
+      "recall_at_k": 0.6785714285714286,
+      "map": 0.9316544566544567
+    }
+  },
+  "queries": [
+    {
+      "name": "合成器-01",
+      "title": "霓虹脉冲",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-05",
+          "distance": 21.644832686063218,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 27.01977267563672,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 29.823433362927794,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 31.211119753182878,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 39.11747674072947,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 47.08633248911324,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 60.77395205788774,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 189.73256201414432,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 202.48487664710663,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 210.11294425612047,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-02",
+      "title": "数据洪流",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-04",
+          "distance": 36.302580585407846,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 40.369761621740814,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 42.85162027506633,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 49.1320849097431,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 60.77395205788774,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 68.24215613272364,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 73.44392952230515,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 222.10225283996493,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "长笛-03",
+          "distance": 242.02694767410526,
+          "family": "长笛",
+          "relevant": false
+        },
+        {
+          "name": "长笛-04",
+          "distance": 246.25572385992635,
+          "family": "长笛",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-03",
+      "title": "午夜跑道",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-05",
+          "distance": 25.231617947701412,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 29.823433362927794,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 32.18809063026949,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 35.972335982774794,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 47.01461243569008,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 51.432314422309986,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 68.24215613272364,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 203.30728429125264,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 212.32149112558187,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "长笛-08",
+          "distance": 224.98087725339803,
+          "family": "长笛",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-04",
+      "title": "人造日落",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-05",
+          "distance": 25.403179269183624,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 27.01977267563672,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 28.745984467654868,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 32.18809063026949,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 36.302580585407846,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 38.48455546503987,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 39.07341967501707,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 206.4930398300833,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "长笛-04",
+          "distance": 216.18097764107753,
+          "family": "长笛",
+          "relevant": false
+        },
+        {
+          "name": "长笛-07",
+          "distance": 220.79964698828087,
+          "family": "长笛",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-05",
+      "title": "信号丢失",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-01",
+          "distance": 21.644832686063218,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 25.231617947701412,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 25.403179269183624,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 28.917627311801812,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 36.7546434571174,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 46.39172082874979,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 49.1320849097431,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 198.70846977564966,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 203.39608163561863,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 217.5570248591958,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-06",
+      "title": "赛博花园",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-07",
+          "distance": 33.59266456640172,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 36.7546434571174,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 38.48455546503987,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 39.11747674072947,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 40.369761621740814,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 51.432314422309986,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 52.92658219382894,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 174.7278547309064,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 205.7463492030671,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 207.33987945694537,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-07",
+      "title": "电子羊",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-04",
+          "distance": 28.745984467654868,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 28.917627311801812,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 31.211119753182878,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 33.59266456640172,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 35.972335982774794,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 41.735360470290225,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 42.85162027506633,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 194.04398573230745,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 197.20820954097164,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "长笛-04",
+          "distance": 200.0728802544195,
+          "family": "长笛",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "合成器-08",
+      "title": "超频",
+      "family": "合成器",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "合成器-04",
+          "distance": 39.07341967501707,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 41.735360470290225,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 46.39172082874979,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 47.01461243569008,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 47.08633248911324,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 52.92658219382894,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "合成器-02",
+          "distance": 73.44392952230515,
+          "family": "合成器",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 261.58908287341154,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 262.6540091637174,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 269.95655170745954,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-01",
+      "title": "挽歌",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "弦乐-06",
+          "distance": 114.83694732529845,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 159.80009935786094,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 167.22829802860102,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 179.85070280444248,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 189.33009716493353,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 212.66553216267164,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 333.79458721161006,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 344.18431336378785,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 359.34571315626397,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 393.55593171553517,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-02",
+      "title": "雪落无声",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9025974025974026,
+      "ranking": [
+        {
+          "name": "弦乐-04",
+          "distance": 88.0620617109774,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 88.08040323685746,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 115.06567479189543,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 152.53734270763275,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 244.77968571649777,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 333.79458721161006,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 395.1468104379039,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 444.18600268396193,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 485.49521083019863,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-07",
+          "distance": 534.0153995953463,
+          "family": "电钢琴",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-03",
+      "title": "断章",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9682539682539683,
+      "ranking": [
+        {
+          "name": "弦乐-04",
+          "distance": 72.7105720757381,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 92.41626826192659,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 115.06567479189543,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 121.01329106855621,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 133.4254987095588,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 159.80009935786094,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 338.1260989781557,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 366.52655620165257,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 408.25338822102714,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 414.4596546295951,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-04",
+      "title": "长夜将至",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9682539682539683,
+      "ranking": [
+        {
+          "name": "弦乐-03",
+          "distance": 72.7105720757381,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 76.59744107328629,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 88.0620617109774,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 104.69425716859392,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 121.37374817703221,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 167.22829802860102,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 381.40479483473484,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 386.82558035545827,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 414.3518582492727,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 417.257149078867,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-05",
+      "title": "失语者",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9682539682539683,
+      "ranking": [
+        {
+          "name": "弦乐-04",
+          "distance": 76.59744107328629,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 88.08040323685746,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 92.41626826192659,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 105.38789878004414,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 162.8949474511035,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 189.33009716493353,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 371.3932399033885,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 377.66168763344643,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 415.3294140978565,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 429.9430916575389,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-06",
+      "title": "灰色的海",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "弦乐-01",
+          "distance": 114.83694732529845,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 121.37374817703221,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 133.4254987095588,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 139.39475603070338,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 162.8949474511035,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 244.77968571649777,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 259.4050047177183,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 371.9890679823688,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 386.4824284861635,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 398.41783769722576,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-07",
+      "title": "旧城",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "弦乐-04",
+          "distance": 104.69425716859392,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 105.38789878004414,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 121.01329106855621,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 139.39475603070338,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 152.53734270763275,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 179.85070280444248,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-08",
+          "distance": 370.8694981962137,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 391.4583391063031,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 410.741258128473,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 459.1285362578483,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "弦乐-08",
+      "title": "安魂曲",
+      "family": "弦乐",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.8941798941798942,
+      "ranking": [
+        {
+          "name": "弦乐-01",
+          "distance": 212.66553216267164,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 259.4050047177183,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 370.8694981962137,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 408.25338822102714,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 414.3518582492727,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 415.3294140978565,
+          "family": "弦乐",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 441.09079640360574,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 468.1596814930685,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 478.77781411848116,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 481.4384962612506,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-01",
+      "title": "公路电影",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6007446500867554,
+      "ranking": [
+        {
+          "name": "木吉他-05",
+          "distance": 112.58890613526917,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 189.5173927897608,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 191.09213822397342,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 207.33987945694537,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 210.11294425612047,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 217.5570248591958,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 225.5667496408632,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 232.69287685540652,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 236.22992692176726,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-08",
+          "distance": 269.95655170745954,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-02",
+      "title": "八月的风",
+      "family": "木吉他",
+      "top1": false,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.4004099075527647,
+      "ranking": [
+        {
+          "name": "合成器-06",
+          "distance": 241.05924028682418,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 246.91787396510657,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 249.6692307490224,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 257.3175169990978,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 265.04737734765615,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 266.3462908046064,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 271.6818513530432,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 276.94363625154085,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-07",
+          "distance": 284.2271425176953,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 286.1730340512868,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-03",
+      "title": "去往南方",
+      "family": "木吉他",
+      "top1": false,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.3447409733124019,
+      "ranking": [
+        {
+          "name": "合成器-06",
+          "distance": 224.19638781601856,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 234.11303180982583,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 236.2705525009548,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 238.03426981652748,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 245.18217523079693,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 246.54797398599112,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 247.46656833487248,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 260.93306156023567,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 261.5358875456214,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-02",
+          "distance": 271.6818513530432,
+          "family": "木吉他",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "木吉他-04",
+      "title": "无名小镇",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.5697409733124019,
+      "ranking": [
+        {
+          "name": "木吉他-08",
+          "distance": 245.26739118628973,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 263.6459658113363,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 271.98981049485366,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 278.2792972941171,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 290.64501320206995,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 291.4036236683143,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 312.93131285704567,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 315.9057587954211,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-08",
+          "distance": 320.927677345457,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 323.95395703043164,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-05",
+      "title": "篝火旁",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6240601503759399,
+      "ranking": [
+        {
+          "name": "木吉他-01",
+          "distance": 112.58890613526917,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 202.2927799956044,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 207.59653876900663,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 249.4186947108119,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 249.5654237591551,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-06",
+          "distance": 257.7684260131415,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 265.50896640958115,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 272.1830382666046,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 281.46025665620255,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-08",
+          "distance": 321.10811893091125,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-06",
+      "title": "把夏天留下",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.5786487322201607,
+      "ranking": [
+        {
+          "name": "木吉他-08",
+          "distance": 160.80272311152606,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 191.09213822397342,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 197.20820954097164,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 202.48487664710663,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 203.30728429125264,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 203.39608163561863,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-06",
+          "distance": 205.7463492030671,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 207.59653876900663,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 221.90168710352089,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 255.10645147620863,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-07",
+      "title": "背包客",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6495028780743066,
+      "ranking": [
+        {
+          "name": "木吉他-06",
+          "distance": 263.01222551044333,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-02",
+          "distance": 284.2271425176953,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 285.2914486201044,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 285.4055794616246,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 297.62659555899006,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 301.59857876031725,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 312.04646408002645,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 316.11674555353704,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 319.22916342798203,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 327.58326560654984,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "木吉他-08",
+      "title": "远山的回声",
+      "family": "木吉他",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.5386827458256029,
+      "ranking": [
+        {
+          "name": "木吉他-06",
+          "distance": 160.80272311152606,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-06",
+          "distance": 174.7278547309064,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 189.5173927897608,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 189.73256201414432,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 194.04398573230745,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 198.70846977564966,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 202.2927799956044,
+          "family": "木吉他",
+          "relevant": true
+        },
+        {
+          "name": "合成器-04",
+          "distance": 206.4930398300833,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 212.32149112558187,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 222.10225283996493,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-01",
+      "title": "蓝色房间",
+      "family": "电钢琴",
+      "top1": true,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.4720418470418471,
+      "ranking": [
+        {
+          "name": "电钢琴-05",
+          "distance": 543.3689422994702,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 693.5511826347869,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 723.2295782800581,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 727.9916301275905,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 774.7421379534849,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 804.6403830429113,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 846.2468696392768,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-06",
+          "distance": 869.2519092442449,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-08",
+          "distance": 869.445549202247,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 871.0748211521739,
+          "family": "电钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-02",
+      "title": "凌晨两点半",
+      "family": "电钢琴",
+      "top1": false,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "ap": 0.32343767343767343,
+      "ranking": [
+        {
+          "name": "弦乐-03",
+          "distance": 510.82190853938414,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 512.2640597640052,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 515.093346612413,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 541.1980661467801,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 583.2402566787069,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 583.6814433660479,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 586.2690867176163,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 597.4485859252,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-05",
+          "distance": 656.1505791000974,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-08",
+          "distance": 787.9183406533107,
+          "family": "电钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-03",
+      "title": "慢速列车",
+      "family": "电钢琴",
+      "top1": false,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.31124629338915055,
+      "ranking": [
+        {
+          "name": "弦乐-03",
+          "distance": 564.8935770559674,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 565.7395450366872,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 571.1803027285199,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 582.079211463558,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-07",
+          "distance": 608.382350331508,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 652.7367593997288,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 851.871208123319,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 933.7337528909045,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 943.0256676971405,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 1157.4383023867015,
+          "family": "电钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-04",
+      "title": "玻璃海",
+      "family": "电钢琴",
+      "top1": false,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.38639990961419535,
+      "ranking": [
+        {
+          "name": "弦乐-01",
+          "distance": 532.913382579964,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 583.6814433660479,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 598.8151852935337,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 618.7211099818144,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 637.934840433908,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 676.6941379862675,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-06",
+          "distance": 726.775699901866,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 730.6768543838655,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-05",
+          "distance": 763.6865056527213,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 784.0738741781842,
+          "family": "弦乐",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-05",
+      "title": "安静的爆炸",
+      "family": "电钢琴",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.5889066734931397,
+      "ranking": [
+        {
+          "name": "电钢琴-08",
+          "distance": 518.0025823372159,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-01",
+          "distance": 543.3689422994702,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 624.3656904135487,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 656.1505791000974,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 718.9232810972022,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 726.7017009058965,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 763.6865056527213,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 796.5339827522006,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 806.6463684251111,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 814.0395048106539,
+          "family": "弦乐",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-06",
+      "title": "二十四小时便利店",
+      "family": "电钢琴",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.5459467120181406,
+      "ranking": [
+        {
+          "name": "电钢琴-04",
+          "distance": 726.775699901866,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 732.1580092589207,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 740.676063824527,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-08",
+          "distance": 782.1465807852463,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 807.5005266879887,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 817.4270759790687,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 836.875388560803,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-05",
+          "distance": 855.7077904364013,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-01",
+          "distance": 869.2519092442449,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 880.4829571110666,
+          "family": "弦乐",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-07",
+      "title": "雾中散步",
+      "family": "电钢琴",
+      "top1": false,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.2936507936507936,
+      "ranking": [
+        {
+          "name": "弦乐-04",
+          "distance": 493.1298873335474,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 496.1034259911473,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-02",
+          "distance": 534.0153995953463,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 606.5558848187984,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-03",
+          "distance": 608.382350331508,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 711.6531970464164,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 871.9753997641733,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 873.6080375192507,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 1131.8002159405482,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 1166.9443726023264,
+          "family": "电钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "电钢琴-08",
+      "title": "褪色的胶片",
+      "family": "电钢琴",
+      "top1": true,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.44338118022328554,
+      "ranking": [
+        {
+          "name": "电钢琴-05",
+          "distance": 518.0025823372159,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-01",
+          "distance": 633.260581047417,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 643.7987021983987,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-04",
+          "distance": 659.1570940060415,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-06",
+          "distance": 709.8754584614658,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-07",
+          "distance": 739.4963866228558,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 753.2591964445728,
+          "family": "弦乐",
+          "relevant": false
+        },
+        {
+          "name": "电钢琴-06",
+          "distance": 782.1465807852463,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-02",
+          "distance": 787.9183406533107,
+          "family": "电钢琴",
+          "relevant": true
+        },
+        {
+          "name": "电钢琴-04",
+          "distance": 806.2562401449565,
+          "family": "电钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "钢琴-01",
+      "title": "雨后的琴键",
+      "family": "钢琴",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6292750433506734,
+      "ranking": [
+        {
+          "name": "钢琴-05",
+          "distance": 447.25602118412786,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-06",
+          "distance": 538.6860652283558,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 549.6775108503994,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 560.6838002862779,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 564.2200754044422,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 594.6084957374815,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-03",
+          "distance": 595.4344159501399,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 637.7621687254799,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-02",
+          "distance": 657.6102571512936,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "弦乐-05",
+          "distance": 677.4972731647939,
+          "family": "弦乐",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "钢琴-02",
+      "title": "旧日回响",
+      "family": "钢琴",
+      "top1": false,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.4870355834641549,
+      "ranking": [
+        {
+          "name": "木吉他-05",
+          "distance": 519.2707763131056,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 562.8451971638959,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-06",
+          "distance": 570.4448210641156,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 621.4193298935909,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-03",
+          "distance": 621.8268354785441,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 629.1096572925858,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-05",
+          "distance": 652.4276173665437,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-01",
+          "distance": 657.6102571512936,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 669.7919090461695,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-08",
+          "distance": 804.7693686241444,
+          "family": "钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "钢琴-03",
+      "title": "午后三点的光",
+      "family": "钢琴",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.450753594231855,
+      "ranking": [
+        {
+          "name": "钢琴-06",
+          "distance": 369.3027621679403,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 437.4015856917743,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 449.69625526484003,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 466.3673088812932,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 467.7581321747926,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 502.78420654376026,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-02",
+          "distance": 505.91845788965986,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 546.7974291921437,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-07",
+          "distance": 584.0500287877287,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-05",
+          "distance": 594.2643654419334,
+          "family": "钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "钢琴-04",
+      "title": "给冬天的信",
+      "family": "钢琴",
+      "top1": false,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.14285714285714285,
+      "ap": 0.3652537938252224,
+      "ranking": [
+        {
+          "name": "木吉他-05",
+          "distance": 408.4781465074575,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-06",
+          "distance": 408.54300206250196,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 424.24099475972093,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 431.2769220529017,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 434.59862582371966,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-03",
+          "distance": 449.69625526484003,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-05",
+          "distance": 480.34238911110106,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-01",
+          "distance": 560.6838002862779,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-02",
+          "distance": 562.8508046546569,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 563.6624998054043,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "钢琴-05",
+      "title": "纸飞机",
+      "family": "钢琴",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6661564625850341,
+      "ranking": [
+        {
+          "name": "钢琴-01",
+          "distance": 447.25602118412786,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 480.34238911110106,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 558.5919051802347,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 567.8426675683648,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-03",
+          "distance": 594.2643654419334,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 627.5381456565244,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-06",
+          "distance": 640.3594708176807,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-02",
+          "distance": 652.4276173665437,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-08",
+          "distance": 654.9684757334792,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 662.5934735299454,
+          "family": "木吉他",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "钢琴-06",
+      "title": "屋檐下的猫",
+      "family": "钢琴",
+      "top1": true,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.484979068550497,
+      "ranking": [
+        {
+          "name": "钢琴-03",
+          "distance": 369.3027621679403,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 406.47608762238286,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 408.54300206250196,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-05",
+          "distance": 453.4188141283192,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 461.789191131056,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 496.65483467553037,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-01",
+          "distance": 538.6860652283558,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-02",
+          "distance": 570.4448210641156,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 592.597688396791,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "弦乐-03",
+          "distance": 598.9251623436693,
+          "family": "弦乐",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "钢琴-07",
+      "title": "未寄出的明信片",
+      "family": "钢琴",
+      "top1": false,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "ap": 0.15031056220795275,
+      "ranking": [
+        {
+          "name": "木吉他-02",
+          "distance": 613.0077786443503,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 714.0880371993437,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-04",
+          "distance": 755.228447972656,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 777.4773170087955,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-07",
+          "distance": 814.312031358764,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 842.259109277466,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 903.0633754719905,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-06",
+          "distance": 904.5320119645007,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 939.5903696389207,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 946.4718117686904,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "钢琴-08",
+      "title": "第七个夏天",
+      "family": "钢琴",
+      "top1": false,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.2857142857142857,
+      "ap": 0.41240664097806956,
+      "ranking": [
+        {
+          "name": "木吉他-05",
+          "distance": 562.1847857853326,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "木吉他-06",
+          "distance": 649.3190711520642,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-05",
+          "distance": 654.9684757334792,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-01",
+          "distance": 700.1867900910283,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-04",
+          "distance": 706.9304841010866,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-08",
+          "distance": 724.8174161095683,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-03",
+          "distance": 747.8979219123929,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "钢琴-06",
+          "distance": 783.8098257498154,
+          "family": "钢琴",
+          "relevant": true
+        },
+        {
+          "name": "木吉他-03",
+          "distance": 798.8036671497027,
+          "family": "木吉他",
+          "relevant": false
+        },
+        {
+          "name": "钢琴-02",
+          "distance": 804.7693686241444,
+          "family": "钢琴",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "name": "长笛-01",
+      "title": "山谷晨雾",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9404761904761905,
+      "ranking": [
+        {
+          "name": "长笛-02",
+          "distance": 40.637200920893015,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 53.83883368514546,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-08",
+          "distance": 58.5654562837818,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 80.92425686356918,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 130.3721067342005,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-04",
+          "distance": 163.0735448011903,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 269.0713090663361,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 278.66562021328883,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 289.2388046713041,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 294.2443119601119,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-02",
+      "title": "第一缕阳光",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9238095238095239,
+      "ranking": [
+        {
+          "name": "长笛-01",
+          "distance": 40.637200920893015,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 48.130566041485594,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-08",
+          "distance": 70.60438136539014,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 79.56590425959392,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 171.76352727737958,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-04",
+          "distance": 189.89266227009242,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 263.03085674459334,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 264.7051947915786,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 281.76206710586985,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 288.8012491448512,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-03",
+      "title": "溪水",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.42857142857142855,
+      "ap": 0.6921245421245421,
+      "ranking": [
+        {
+          "name": "长笛-04",
+          "distance": 74.6503118539135,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 135.77246092563078,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 218.414128896521,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 229.2990291986133,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-06",
+          "distance": 235.51999046718262,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 237.9935222875443,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-02",
+          "distance": 242.02694767410526,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "长笛-05",
+          "distance": 257.34739229061654,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 257.7392297712947,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 266.6131072125483,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-04",
+      "title": "春分",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "长笛-03",
+          "distance": 74.6503118539135,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 76.86914192362065,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 103.85299273296657,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-08",
+          "distance": 122.28217122145945,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 133.9863300942622,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-01",
+          "distance": 163.0735448011903,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-02",
+          "distance": 189.89266227009242,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 200.0728802544195,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 216.18097764107753,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-06",
+          "distance": 223.98032518713944,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-05",
+      "title": "青鸟",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9682539682539683,
+      "ranking": [
+        {
+          "name": "长笛-02",
+          "distance": 48.130566041485594,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-01",
+          "distance": 53.83883368514546,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-08",
+          "distance": 68.75727884513852,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 86.86406100471416,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 116.15118318112361,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-04",
+          "distance": 133.9863300942622,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-05",
+          "distance": 244.63624652727438,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-03",
+          "distance": 252.2573987625586,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "长笛-03",
+          "distance": 257.34739229061654,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-01",
+          "distance": 261.3051552235295,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-06",
+      "title": "风穿过竹林",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "长笛-08",
+          "distance": 68.31778130550056,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-02",
+          "distance": 79.56590425959392,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-01",
+          "distance": 80.92425686356918,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 86.86406100471416,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 88.29294863861345,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-04",
+          "distance": 103.85299273296657,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-03",
+          "distance": 218.414128896521,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 223.8877532849229,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 230.6983698301477,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 231.46814246931845,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-07",
+      "title": "浮云",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 1.0,
+      "ranking": [
+        {
+          "name": "长笛-04",
+          "distance": 76.86914192362065,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 88.29294863861345,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-08",
+          "distance": 95.66076339113131,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 116.15118318112361,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-01",
+          "distance": 130.3721067342005,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-03",
+          "distance": 135.77246092563078,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-02",
+          "distance": 171.76352727737958,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-07",
+          "distance": 215.52891833746244,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-04",
+          "distance": 220.79964698828087,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 230.81256672273685,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "name": "长笛-08",
+      "title": "白桦林",
+      "family": "长笛",
+      "top1": true,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.7142857142857143,
+      "ap": 0.9285714285714286,
+      "ranking": [
+        {
+          "name": "长笛-01",
+          "distance": 58.5654562837818,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-06",
+          "distance": 68.31778130550056,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-05",
+          "distance": 68.75727884513852,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-02",
+          "distance": 70.60438136539014,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-07",
+          "distance": 95.66076339113131,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "长笛-04",
+          "distance": 122.28217122145945,
+          "family": "长笛",
+          "relevant": true
+        },
+        {
+          "name": "合成器-03",
+          "distance": 224.98087725339803,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-05",
+          "distance": 229.19694397337446,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-07",
+          "distance": 230.1204482023714,
+          "family": "合成器",
+          "relevant": false
+        },
+        {
+          "name": "合成器-01",
+          "distance": 237.19298051173993,
+          "family": "合成器",
+          "relevant": false
+        }
+      ]
+    }
+  ]
+}

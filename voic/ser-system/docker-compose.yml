@@ -1,0 +1,76 @@
+name: ser-system
+
+x-api-environment: &api-environment
+  SER_ARTIFACT_PATH: /app/artifacts/active
+  METRICS_PATH: /app/artifacts/metrics.json
+  ASR_MODEL: ${ASR_MODEL:-small}
+  ASR_CACHE_DIR: /data/models/whisper
+  ASR_LOCAL_ONLY: ${ASR_LOCAL_ONLY:-false}
+  ASR_ENABLED: ${ASR_ENABLED:-true}
+
+x-api-volumes: &api-volumes
+  - ./api/artifacts:/app/artifacts
+  - ./data/raw:/data/raw
+  - ./data/cache:/data/cache
+  - asr_models:/data/models/whisper
+
+services:
+  api:
+    build:
+      context: ./api
+      target: runtime
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.11-slim-bookworm}
+        DOWNLOAD_ASR_MODEL: ${DOWNLOAD_ASR_MODEL:-false}
+        ASR_MODEL: ${ASR_MODEL:-small}
+    restart: unless-stopped
+    environment: *api-environment
+    volumes: *api-volumes
+    expose:
+      - "8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import json,urllib.request; d=json.load(urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)); assert d['status'] in ('ok','degraded')"]
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 5
+
+  web:
+    build:
+      context: ./web
+      args:
+        NODE_IMAGE: ${NODE_IMAGE:-node:20-alpine}
+        NGINX_IMAGE: ${NGINX_IMAGE:-nginx:1.27-alpine}
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "3000:80"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/"]
+      interval: 15s
+      timeout: 5s
+      start_period: 10s
+      retries: 5
+
+  trainer:
+    profiles: ["training"]
+    build:
+      context: ./api
+      target: trainer
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.11-slim-bookworm}
+        DOWNLOAD_ASR_MODEL: "false"
+    restart: "no"
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    environment:
+      HOME: /tmp
+      SER_ARTIFACT_PATH: /app/artifacts/active
+      METRICS_PATH: /app/artifacts/metrics.json
+      ASR_ENABLED: "false"
+    volumes: *api-volumes
+    command: ["ser.train", "--help"]
+
+volumes:
+  asr_models:

@@ -1,0 +1,31 @@
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Downloaded data and generated caches
+data/raw/**
+!data/raw/.gitkeep
+data/cache/**
+!data/cache/.gitkeep
+data/models/
+
+# Generated model/evaluation outputs
+api/artifacts/**
+!api/artifacts/.gitkeep

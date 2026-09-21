@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+out/*.tmp
+
+# Local audio data (regenerate via scripts/make_demo_library.py)
+data/clips/
+data/songs/

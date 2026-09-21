@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "sample_rate": 16000,
+  "seconds": 30.0,
+  "mfcc_dim": 20,
+  "k": 16,
+  "cmn": false
+}

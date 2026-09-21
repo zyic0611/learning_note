@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+.DS_Store
+out/*.tmp
+data/songs/
+data/clips/
+data/sig/
+out/distances.npz

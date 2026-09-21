@@ -1,0 +1,14 @@
+services:
+  mir:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.11-slim-bookworm}
+    ports:
+      - "8088:8088"
+    volumes:
+      # 放自己的歌曲、重新建库后，结果会直接保存在 Mac 当前项目目录。
+      - ./data:/app/data
+      - ./out:/app/out
+    restart: unless-stopped

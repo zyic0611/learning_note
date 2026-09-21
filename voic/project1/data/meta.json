@@ -1,0 +1,341 @@
+{
+  "_note": "演示库：合成音频。family 是真实的音色家族（检索系统的 ground truth），检索过程本身完全不使用 title/artist/family。",
+  "songs": {
+    "钢琴-01": {
+      "title": "雨后的琴键",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 76.3,
+      "key_midi": 48
+    },
+    "钢琴-02": {
+      "title": "旧日回响",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 72.2,
+      "key_midi": 49
+    },
+    "钢琴-03": {
+      "title": "午后三点的光",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 81.3,
+      "key_midi": 52
+    },
+    "钢琴-04": {
+      "title": "给冬天的信",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 91.2,
+      "key_midi": 51
+    },
+    "钢琴-05": {
+      "title": "纸飞机",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 81.5,
+      "key_midi": 48
+    },
+    "钢琴-06": {
+      "title": "屋檐下的猫",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 81.3,
+      "key_midi": 52
+    },
+    "钢琴-07": {
+      "title": "未寄出的明信片",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 84.4,
+      "key_midi": 60
+    },
+    "钢琴-08": {
+      "title": "第七个夏天",
+      "artist": "林知远",
+      "family": "钢琴",
+      "bpm": 74.1,
+      "key_midi": 49
+    },
+    "电钢琴-01": {
+      "title": "蓝色房间",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 85.6,
+      "key_midi": 57
+    },
+    "电钢琴-02": {
+      "title": "凌晨两点半",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 99.7,
+      "key_midi": 56
+    },
+    "电钢琴-03": {
+      "title": "慢速列车",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 94.1,
+      "key_midi": 49
+    },
+    "电钢琴-04": {
+      "title": "玻璃海",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 95.9,
+      "key_midi": 58
+    },
+    "电钢琴-05": {
+      "title": "安静的爆炸",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 98.3,
+      "key_midi": 57
+    },
+    "电钢琴-06": {
+      "title": "二十四小时便利店",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 77.1,
+      "key_midi": 55
+    },
+    "电钢琴-07": {
+      "title": "雾中散步",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 95.4,
+      "key_midi": 48
+    },
+    "电钢琴-08": {
+      "title": "褪色的胶片",
+      "artist": "陈亦白",
+      "family": "电钢琴",
+      "bpm": 82.0,
+      "key_midi": 57
+    },
+    "木吉他-01": {
+      "title": "公路电影",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 111.2,
+      "key_midi": 49
+    },
+    "木吉他-02": {
+      "title": "八月的风",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 118.7,
+      "key_midi": 59
+    },
+    "木吉他-03": {
+      "title": "去往南方",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 117.2,
+      "key_midi": 57
+    },
+    "木吉他-04": {
+      "title": "无名小镇",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 96.6,
+      "key_midi": 55
+    },
+    "木吉他-05": {
+      "title": "篝火旁",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 124.6,
+      "key_midi": 49
+    },
+    "木吉他-06": {
+      "title": "把夏天留下",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 122.8,
+      "key_midi": 54
+    },
+    "木吉他-07": {
+      "title": "背包客",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 96.8,
+      "key_midi": 56
+    },
+    "木吉他-08": {
+      "title": "远山的回声",
+      "artist": "苏木野",
+      "family": "木吉他",
+      "bpm": 105.2,
+      "key_midi": 52
+    },
+    "弦乐-01": {
+      "title": "挽歌",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 75.9,
+      "key_midi": 57
+    },
+    "弦乐-02": {
+      "title": "雪落无声",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 72.7,
+      "key_midi": 49
+    },
+    "弦乐-03": {
+      "title": "断章",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 77.1,
+      "key_midi": 49
+    },
+    "弦乐-04": {
+      "title": "长夜将至",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 69.5,
+      "key_midi": 49
+    },
+    "弦乐-05": {
+      "title": "失语者",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 70.6,
+      "key_midi": 48
+    },
+    "弦乐-06": {
+      "title": "灰色的海",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 75.8,
+      "key_midi": 54
+    },
+    "弦乐-07": {
+      "title": "旧城",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 64.0,
+      "key_midi": 50
+    },
+    "弦乐-08": {
+      "title": "安魂曲",
+      "artist": "关山月",
+      "family": "弦乐",
+      "bpm": 69.5,
+      "key_midi": 60
+    },
+    "长笛-01": {
+      "title": "山谷晨雾",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 97.3,
+      "key_midi": 48
+    },
+    "长笛-02": {
+      "title": "第一缕阳光",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 84.2,
+      "key_midi": 50
+    },
+    "长笛-03": {
+      "title": "溪水",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 98.9,
+      "key_midi": 59
+    },
+    "长笛-04": {
+      "title": "春分",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 99.9,
+      "key_midi": 56
+    },
+    "长笛-05": {
+      "title": "青鸟",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 87.1,
+      "key_midi": 51
+    },
+    "长笛-06": {
+      "title": "风穿过竹林",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 92.4,
+      "key_midi": 53
+    },
+    "长笛-07": {
+      "title": "浮云",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 99.0,
+      "key_midi": 58
+    },
+    "长笛-08": {
+      "title": "白桦林",
+      "artist": "白鹭",
+      "family": "长笛",
+      "bpm": 96.0,
+      "key_midi": 54
+    },
+    "合成器-01": {
+      "title": "霓虹脉冲",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 130.2,
+      "key_midi": 52
+    },
+    "合成器-02": {
+      "title": "数据洪流",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 132.0,
+      "key_midi": 58
+    },
+    "合成器-03": {
+      "title": "午夜跑道",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 130.1,
+      "key_midi": 53
+    },
+    "合成器-04": {
+      "title": "人造日落",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 132.7,
+      "key_midi": 57
+    },
+    "合成器-05": {
+      "title": "信号丢失",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 135.6,
+      "key_midi": 53
+    },
+    "合成器-06": {
+      "title": "赛博花园",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 135.3,
+      "key_midi": 56
+    },
+    "合成器-07": {
+      "title": "电子羊",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 133.8,
+      "key_midi": 55
+    },
+    "合成器-08": {
+      "title": "超频",
+      "artist": "NEON-9",
+      "family": "合成器",
+      "bpm": 133.6,
+      "key_midi": 54
+    }
+  }
+}
