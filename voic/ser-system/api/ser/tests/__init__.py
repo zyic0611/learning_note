@@ -1,1 +1,0 @@
-"""SER core tests."""

@@ -67,8 +67,7 @@
 | 场景 | 手段 |
 |------|------|
 | SPI（JDBC） | 线程上下文类加载器，Bootstrap 向下委托 AppClassLoader |
-| Tomcat | 自定义 ClassLoader，优先加载 WebApp 自身类，实现版本隔离 |
-| OSGi | 网状类加载，彻底抛弃树形结构 |
+| Tomcat | 自定义 ClassLoader，优先加载 WebApp 自身类，实现版本隔离 
 
 ---
 
