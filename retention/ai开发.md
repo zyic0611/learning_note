@@ -1,0 +1,2 @@
+
+工程需求文档（ERD，Engineering Requirements Document ）是清晰定义新组件开发目标与功能范畴的技术声明文档，与产品需求文档（PRD，Product Requirements Document）形成互补。区别于PRD仅描述工程师需构建的整体结构，ERD深入阐释组件的设计依据及需求实现路径。工程师遵循ERD中的工程要求，既可确保新组件或功能满足多方需求，亦能优化生产流程效率。
