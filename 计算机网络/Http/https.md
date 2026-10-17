@@ -1,8 +1,5 @@
 
-
 HTTPS = HTTP + TLS：先用TLS保证安全通道，再传输 HTTP 数据。
-
-
 
 ## RSA密钥交换
 
