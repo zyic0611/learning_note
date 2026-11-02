@@ -32,7 +32,7 @@ learning_note/
 | [redis](redis) | 38 | 数据结构、线程模型、持久化、集群、分布式锁、缓存三问 |
 | [rabbitmq](rabbitmq) | 27 | AMQP 模型、路由、可靠性投递、削峰、消费语义 |
 | [计算机网络](计算机网络) | 25 | TCP/HTTP/TLS、DNS、NAT、身份凭证与网络分层 |
-| [rag](rag) | 20 | 文档解析、chunk、索引、召回、后处理、评估 |
+| [rag](rag.md) | 20 | 文档解析、chunk、索引、召回、后处理、评估 |
 | [情景实战面经](情景实战面经) | 20 | CPU 飙升、FullGC、OOM、超时、慢查询等真实故障推演 |
 | [操作系统](操作系统) | 15 | 进程线程、虚拟内存、缺页、缓存一致性、中断 |
 | [python面经](python面经) | 11 | FastAPI、LangGraph、SSE、异步、nl2sql 工程链路 |
@@ -80,7 +80,7 @@ learning_note/
 - 评测与观测：三层观测对象（Model/Tool/Runtime）、四层观测层级、各类 Span、metric 与故障归因
 - RAG：PDF/代码/表格解析 → chunk 策略 → 索引与向量检索 → 召回后处理 → 评估与调优
 
-入口：[Agent 系统心智模型](agent/基础/0_Agent系统心智模型.md)、[上下文管理策略](agent/PiAgent/上下文管理策略.md)、[RAG 流程](python面经/RAG流程.md)
+入口：[Agent 系统心智模型](agent/基础/0_Agent系统心智模型.md)、[上下文管理策略](agent/PiAgent/上下文管理策略.md)、[RAG 流程](RAG流程.md)
 
 ---
 
